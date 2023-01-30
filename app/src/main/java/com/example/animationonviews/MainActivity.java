@@ -105,11 +105,5 @@ public class MainActivity extends AppCompatActivity {
                 image1.animate().alphaBy(-1f);
             }
         });
-        fadeOut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                image1.animate().alphaBy(-1f);
-            }
-        });
     }
 }
